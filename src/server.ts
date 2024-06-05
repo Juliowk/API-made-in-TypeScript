@@ -4,13 +4,17 @@ import { routes } from "./routes";
 
 const app = Fastify({ logger: true });
 
+app.setErrorHandler((erro, request, reply) => {
+     reply.code(400).send({ msg: erro.message })
+});
+
 const start = async () => {
 
      await app.register(cors);
      await app.register(routes);
 
      try {
-          await app.listen({ port: 3333 })
+          await app.listen({ port: 3333 });
      } catch (error) {
           process.exit(1)
      }
