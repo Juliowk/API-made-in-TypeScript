@@ -24,9 +24,9 @@ Este é um projeto de estudos que consiste em uma API desenvolvida em TypeScript
 2. **Deletar Cliente**: Rota para deletar um cliente específico através de um ID.
 3. **Listar Clientes**: Rota para retornar um JSON com a lista de todos os clientes cadastrados.
 
-## Vídeo Demonstrativo
+#
 
-[![Vídeo do Projeto](./images/Captura%20de%20tela%202024-06-09%20121904.png)](./images/DevClient%20-%20Google%20Chrome%202024-06-09%2011-57-38.mp4)
+![iamgem](./images/Captura%20de%20tela%202024-06-09%20121904.png)
 
 ## Imagens do Projeto
 
